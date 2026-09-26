@@ -6,6 +6,7 @@
 
 - **Pixel clock** — SVG-drawn LED readout in the conversation header, with blinking colon, sparkle, and heart. Stands down automatically if the host build already draws its own hero clock.
 - **Five palettes** — Matrix / Sakura / Ocean / Sunset / Vapor, each with tuned light and dark schemes that follow the host Appearance setting.
+- **Four layered text schemes** — Ink / Phosphor / Blueprint / Amber. Each one sets a full ladder of text tones (primary → secondary → tertiary → caption → dimmed) plus link, brand text, and markdown code-area colors, so headings, body, metadata, and links read at distinct depths on top of any palette.
 - **Five pixel fonts + system default** — VT323, Press Start 2P, Silkscreen, Pixelify Sans, and Fusion Pixel (simplified Chinese, pixelates CJK text too). All fonts are embedded — no network requests, offline-friendly. Latin-only faces fall back to system fonts for Chinese.
 - **Corner presets** — square / soft (2px) / round (8px), applied across every UI element.
 - **CRT scanline + pixel-dither overlays** — subtle, pointer-transparent, disabled under `prefers-reduced-motion`.

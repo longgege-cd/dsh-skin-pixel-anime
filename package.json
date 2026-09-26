@@ -1,0 +1,44 @@
+{
+  "name": "dsh-skin-pixel-anime",
+  "version": "0.1.0",
+  "description": "Pixel-anime skin for DeepSeek Harness: five palettes, five pixel fonts (one covering simplified Chinese), square or rounded corners, and a pixel clock — all configurable from its settings tab. · DeepSeek Harness 像素动漫风皮肤：五套配色、五款像素字体（含简体中文像素字体）、方角/圆角可选、像素时钟，均在设置页配置。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "icon.svg",
+    "lib/client.js",
+    "lib/index.js",
+    "cordis.patch.yml",
+    "OFL.txt"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "skin",
+    "theme",
+    "pixel"
+  ],
+  "license": "MIT",
+  "author": "longgege-cd",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longgege-cd/dsh-skin-pixel-anime.git"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-theme"
+      ],
+      "platform": "web"
+    }
+  }
+}

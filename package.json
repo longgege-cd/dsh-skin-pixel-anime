@@ -1,6 +1,6 @@
 {
   "name": "dsh-skin-pixel-anime",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Pixel-anime skin for DeepSeek Harness: five palettes, four layered text schemes, five pixel fonts (one covering simplified Chinese), corner presets, and a pixel clock — all configurable from its settings tab. · DeepSeek Harness 像素动漫风皮肤：五套配色、四套分层文字方案、五款像素字体（含简体中文像素字体）、方角/圆角可选、像素时钟，均在设置页配置。",
   "type": "module",
   "main": "lib/index.js",

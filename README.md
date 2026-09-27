@@ -1,6 +1,6 @@
 # dsh-skin-pixel-anime
 
-[中文](#功能) · A pixel-anime skin plugin for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) web UI.
+[中文](#功能) · A pixel dynamic starfield theme plugin for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) web UI (显示名：像素动态星空).
 
 ## Features
 
@@ -12,7 +12,7 @@
 - **Rotating pixel starfield** — 42 rainbow stars with LED-style stepped twinkle, plus a milky way simulated purely with stars: a tight Gaussian core band and a wider halo band along one axis. The whole sky sits in a layer that rotates once every 8 minutes. No gradients — every star is a square pixel, deterministic across reloads.
 - **Meteors, bursts, and fireballs** — a solo streak every 20–30 s (one in ten is an 8px warm-hued fireball with a pixel halo), and every so often a 10-second shower burst rains parallel meteors from a single radiant in a shared hue family. Burst cadence (rare/standard/often), meteors per burst (20/35/55), and fireball chance (off/5%/10%/25%) are user-configurable.
 - **CRT scanline + pixel-dither overlays** — subtle, pointer-transparent, disabled under `prefers-reduced-motion`.
-- **Settings tab** — palettes, text schemes, corners, fonts, background motion on/off, and all meteor parameters live in Settings → Plugins → Pixel Anime. Choices apply instantly (the meteor scheduler reads the latest choices at fire time, no reload needed) and persist in browser localStorage.
+- **Settings tab** — palettes, text schemes, corners, fonts, background motion on/off, and all meteor parameters live in Settings → Plugins → Pixel Starfield (像素动态星空). Choices apply instantly (the meteor scheduler reads the latest choices at fire time, no reload needed) and persist in browser localStorage.
 
 ## Install
 
